@@ -60,4 +60,5 @@ int digits_number(int number);
  */
 void print_digits_number(FILE* file, int number);
 
+
 #endif /* DIGITS_NUMBER_H_ */
