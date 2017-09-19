@@ -6,4 +6,3 @@
  */
 
 #include "digits_number.h"
-

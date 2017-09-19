@@ -19,9 +19,8 @@
 #define MAX_NUMBER   999999
 #define FILE_NAME    "digits_number.txt"
 #define FILE_MODE    "w"
-#define NEW_LINE     "\n"
-#define PRINT_NUMBER "Numero di cui contare le cifre: %d"
-#define PRINT_DIGITS "Numero di cifre contate: %d"
+#define PRINT_NUMBER "\nNumero di cui contare le cifre: %d"
+#define PRINT_DIGITS "\nNumero di cifre contate: %d"
 
 /**
  * Assicura che ad ogni lancio il programma
@@ -59,6 +58,5 @@ int digits_number(int number);
  * @param number
  */
 void print_digits_number(FILE* file, int number);
-
 
 #endif /* DIGITS_NUMBER_H_ */
